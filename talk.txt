@@ -1,22 +1,83 @@
 
-Battling the HIV epidemic: the role of mathematical and simulation models
+Adaptation and aging in disease-host systems
 
 \vfill 
 
-	CANFAR McMaster 
-	
-	HIV/AIDS Research and Healthcare Conference 2016
+
+SFI/JSMF: Arrow of time, Adaptation and Aging meeting
+
+October 2016
 
 \vfill
 
-	Jonathan Dushoff
+Jonathan Dushoff
 
-	Department of Biology
+McMaster University
 
 \vfill
 
 ----------------------------------------------------------------------
 
-SECTION The HIV Epidemic
+Disease-host relationships
+
+	Intimate enemy
+
+	Different goals
+
+----------------------------------------------------------------------
+
+Conflicts
+
+	Group vs.\ individual selection
+
+	Biological vs.\ societal aims
+
+----------------------------------------------------------------------
+
+The function of a disease-host system
+
+	Easier to formulate from the point of view of the pathogen
+
+----------------------------------------------------------------------
+
+Evolution of a disease-host system
+
+	Population dynamics
+
+	Immunological response
+
+	Pathogen evolution
+
+	Behavioural response
+
+	Cultural evolution
+
+	Host evolution
+
+----------------------------------------------------------------------
+
+Population dynamics
+
+----------------------------------------------------------------------
+
+Immunological response
+
+----------------------------------------------------------------------
+
+Pathogen evolution
+
+----------------------------------------------------------------------
+
+Behavioural response
+
+----------------------------------------------------------------------
+
+Cultural evolution
+
+----------------------------------------------------------------------
+
+Host evolution
+
+----------------------------------------------------------------------
 
 
