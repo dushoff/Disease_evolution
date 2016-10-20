@@ -6,6 +6,9 @@ target pngtarget pdftarget vtarget acrtarget: talk.draft.pdf
 
 ##################################################################
 
+# Resources ~/Dropbox/current/Disease_evolution
+# screen -t Dropbox sdir ~/Dropbox/current/Disease_evolution
+
 # make files
 
 Sources = Makefile .gitignore README.md stuff.mk LICENSE.md
