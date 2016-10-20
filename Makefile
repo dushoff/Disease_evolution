@@ -27,6 +27,10 @@ talk.draft.pdf: talk.txt
 
 ##################################################################
 
+## Local figures
+
+Sources += $(wildcard *.png)
+
 ## Talk machinery
 
 talkdir = $(ms)/talk

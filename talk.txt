@@ -1,4 +1,9 @@
 
+FIG SIR_model_family/comp0.pdf
+
+
+----------------------------------------------------------------------
+
 Adaptation and aging in disease-host systems
 
 \vfill 
@@ -18,25 +23,47 @@ McMaster University
 
 ----------------------------------------------------------------------
 
+Function through time
+
+WIDEFIG function.png
+
+----------------------------------------------------------------------
+
 Disease-host relationships
 
-	Intimate enemy
+Intimate enemies
 
-	Different goals
-
-----------------------------------------------------------------------
-
-Conflicts
-
-	Group vs.\ individual selection
-
-	Biological vs.\ societal aims
+FIG images/intimate_enemy.jpg
 
 ----------------------------------------------------------------------
 
-The function of a disease-host system
+Different goals 
 
-	Easier to formulate from the point of view of the pathogen
+FIG images/elimination.jpg
+
+----------------------------------------------------------------------
+
+Different goals 
+
+FIG images/chytrids.jpg
+
+----------------------------------------------------------------------
+
+Scales
+
+BC
+
+SIGHFIG 0.5 images/flu_virus.jpg
+
+SIGHFIG 0.5 images/sneeze.jpg
+
+NC
+
+SIGHFIG 0.5 images/crowd.jpg
+
+SIGHFIG 0.5 images/earth.png
+
+EC
 
 ----------------------------------------------------------------------
 
@@ -56,7 +83,15 @@ Evolution of a disease-host system
 
 ----------------------------------------------------------------------
 
-Population dynamics
+Homeostasis and cycling
+
+PORTFIG SIR_model_family/comp.pdf
+
+----------------------------------------------------------------------
+
+Homeostasis and cycling
+
+FIG Disease_data/ewmeas.Rout.pdf
 
 ----------------------------------------------------------------------
 
