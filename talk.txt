@@ -1,13 +1,7 @@
 
-FIG SIR_model_family/comp0.pdf
-
-
-----------------------------------------------------------------------
-
 Adaptation and aging in disease-host systems
 
 \vfill 
-
 
 SFI/JSMF: Arrow of time, Adaptation and Aging meeting
 
@@ -155,4 +149,9 @@ Host evolution
 
 ----------------------------------------------------------------------
 
+Adaptation
+
+----------------------------------------------------------------------
+
+Aging
 
