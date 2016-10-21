@@ -17,23 +17,33 @@ include stuff.mk
 
 ##################################################################
 
-## Content
-
-format_files = beamer.tmp beamer.fmt
-
 Sources += $(wildcard *.abs *.txt)
 
 talk.draft.pdf: talk.txt
 
 ##################################################################
 
+## Diagrams
+
+Sources += $(wildcard *.R)
+
+tradeoff.Rout: tradeoff.R
+
+######################################################################
+
+## Talk
+
+talkdir = $(ms)/talk
+format_files = beamer.tmp beamer.fmt
+
+######################################################################
+
+## Pix
+
 ## Local figures
 
 Sources += $(wildcard *.png)
 
-## Talk machinery
-
-talkdir = $(ms)/talk
 
 ## Images
 
@@ -78,4 +88,4 @@ Makefile: $(ms) $(subdirs)
 
 ######################################################################
 
-# -include $(ms)/wrapR.mk
+-include $(ms)/wrapR.mk

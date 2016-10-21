@@ -69,13 +69,9 @@ EC
 
 Evolution of a disease-host system
 
-	Population dynamics
-
-	Immunological response
+	Homeostasis and cycling
 
 	Pathogen evolution
-
-	Behavioural response
 
 	Cultural evolution
 
@@ -95,11 +91,55 @@ FIG Disease_data/ewmeas.Rout.pdf
 
 ----------------------------------------------------------------------
 
-Immunological response
+Homeostasis and cycling
+
+BC
+
+COLFIG Disease_data/ewmeas.Rout.pdf
+
+NC
+
+	Immunity
+
+	Death
+
+	Behaviour change?
+
+EC
 
 ----------------------------------------------------------------------
 
 Pathogen evolution
+
+BC
+
+	How ``virulent'' should a pathogen be?
+
+		Many definitions, maybe not the sharpest question
+
+NC
+
+	Rabies vs.\ influenza
+
+EC
+
+----------------------------------------------------------------------
+
+Pathogen ``aggressiveness''
+
+	Pathogens that replicate faster (or use more ``virulence factors'') may:
+
+		Provoke a stronger immune response
+
+		Kill their host (or kill it faster)
+
+		Transmit more effectively
+
+----------------------------------------------------------------------
+
+Maximizing pathogen reproduction
+
+WIDEFIG tradeoff.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
