@@ -113,7 +113,11 @@ BC
 
 NC
 
-	Rabies vs.\ influenza
+	Rate of replication
+
+	Virulence factors (damage and self defense)
+
+	Duration of infectious period
 
 EC
 
@@ -133,25 +137,92 @@ Pathogen ``aggressiveness''
 
 Maximizing pathogen reproduction
 
+SUBH Transmission
+
 WIDEFIG tradeoff.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-Behavioural response
+Maximizing pathogen reproduction
+
+SUBH Duration
+
+WIDEFIG tradeoff.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-Cultural evolution
+Maximizing pathogen reproduction
+
+SUBH Reproduction is the product
+
+WIDEFIG tradeoff.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Maximizing pathogen reproduction
+
+WIDEFIG tradeoff.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+Scales
+
+BC
+
+SIGHFIG 0.5 images/flu_virus.jpg
+
+SIGHFIG 0.5 images/sneeze.jpg
+
+NC
+
+SIGHFIG 0.5 images/crowd.jpg
+
+SIGHFIG 0.5 images/earth.png
+
+EC
+
+----------------------------------------------------------------------
+
+Death vs.\ recovery
+
+	At one scale, these look about the same to the pathogen
+
+	On another scale, it depends on duration of immunity
+
+	On yet another scale
+
+----------------------------------------------------------------------
+
+Behaviour and culture
+
+	People respond on many time scales to a new infectious disease
+
+		Instinctive responses (clannishness)?
+
+		Cultural beliefs and practices
 
 ----------------------------------------------------------------------
 
 Host evolution
 
+	Response balance
+
+	Specialized responses
+
+		Innate systems
+
+		Acquired systems
+
 ----------------------------------------------------------------------
 
 Adaptation
+
+	Specificity
+
+		Pathogen should 
 
 ----------------------------------------------------------------------
 
 Aging
 
+	Arms race
