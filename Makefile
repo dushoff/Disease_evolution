@@ -27,7 +27,11 @@ talk.draft.pdf: talk.txt
 
 Sources += $(wildcard *.R)
 
+## Simple product stuff; could add a Pareto frontier (from 3SS) or rate-based stuff
 tradeoff.Rout: tradeoff.R
+
+## Abstract pictures of dimensions of co-operation and tension
+damage.Rout: damage.R
 
 ######################################################################
 

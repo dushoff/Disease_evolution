@@ -1,5 +1,4 @@
-
-Adaptation and aging in disease-host systems
+Adaptation and aging in pathogen-host systems
 
 \vfill 
 
@@ -17,6 +16,12 @@ McMaster University
 
 ----------------------------------------------------------------------
 
+TOC
+
+----------------------------------------------------------------------
+
+SEC Introduction
+
 Function through time
 
 WIDEFIG function.png
@@ -33,13 +38,15 @@ FIG images/intimate_enemy.jpg
 
 Different goals 
 
-FIG images/elimination.jpg
+BC
 
-----------------------------------------------------------------------
+COLFIG images/elimination.jpg
 
-Different goals 
+NC
 
-FIG images/chytrids.jpg
+COLFIG images/chytrids.jpg
+
+EC
 
 ----------------------------------------------------------------------
 
@@ -61,7 +68,7 @@ EC
 
 ----------------------------------------------------------------------
 
-Evolution of a disease-host system
+TSEC Evolution of a disease-host system
 
 	Homeostasis and cycling
 
@@ -73,7 +80,7 @@ Evolution of a disease-host system
 
 ----------------------------------------------------------------------
 
-Homeostasis and cycling
+TSS Homeostasis and cycling
 
 PORTFIG SIR_model_family/comp.pdf
 
@@ -97,29 +104,21 @@ NC
 
 	Death
 
-	Behaviour change?
+	Behaviour change
 
 EC
 
 ----------------------------------------------------------------------
 
-Pathogen evolution
-
-BC
+TSS Pathogen evolution
 
 	How ``virulent'' should a pathogen be?
 
-		Many definitions, maybe not the sharpest question
+	What do we mean by ``virulence''?
 
-NC
+	Damage to host depends on host response
 
-	Rate of replication
-
-	Virulence factors (damage and self defense)
-
-	Duration of infectious period
-
-EC
+	Do host-pathogen systems evolve to be benign?
 
 ----------------------------------------------------------------------
 
@@ -139,6 +138,8 @@ Maximizing pathogen reproduction
 
 SUBH Transmission
 
+UP 3ex
+
 WIDEFIG tradeoff.Rout-0.pdf
 
 ----------------------------------------------------------------------
@@ -147,13 +148,17 @@ Maximizing pathogen reproduction
 
 SUBH Duration
 
+UP 3ex
+
 WIDEFIG tradeoff.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
 Maximizing pathogen reproduction
 
-SUBH Reproduction is the product
+SUBH Reproduction = transmission $\times$ duration
+
+UP 3ex
 
 WIDEFIG tradeoff.Rout-2.pdf
 
@@ -161,23 +166,51 @@ WIDEFIG tradeoff.Rout-2.pdf
 
 Maximizing pathogen reproduction
 
-WIDEFIG tradeoff.Rout-3.pdf
+WIDEFIG tradeoff.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
-Scales
+Life history
+
+	Duration of infectiousness
+
+	Some diseases need you to be out and about to transmit
+
+		measles, influenza, syphilis
+
+	Others may be happy if you're lying in bed
+
+		malaria, dengue
+
+	Or may benefit from severe damage
+
+		Ebola?, anthrax
+
+----------------------------------------------------------------------
+
+Is rabies more virulent than influenza?
+
+	Longer latent period
+
+	Longer infectious period
+
+	Longer recalcitrant period
+
+----------------------------------------------------------------------
+
+Cycling
 
 BC
 
-SIGHFIG 0.5 images/flu_virus.jpg
-
-SIGHFIG 0.5 images/sneeze.jpg
+COLFIG Disease_data/ewmeas.Rout.pdf
 
 NC
 
-SIGHFIG 0.5 images/crowd.jpg
+Compared to this optimum, pathogens are selected to be:
 
-SIGHFIG 0.5 images/earth.png
+	faster (more virulent) on the upswing
+
+	slower (less virulent) on the downswing
 
 EC
 
@@ -185,25 +218,47 @@ EC
 
 Death vs.\ recovery
 
+BC
+
+SIGHFIG 0.5 images/flu_virus.jpg
+
+SIGHFIG 0.5 images/earth.png
+
+NC
+
 	At one scale, these look about the same to the pathogen
 
 	On another scale, it depends on duration of immunity
 
-	On yet another scale
+	On yet another scale, recovery may always be better 
+
+EC
 
 ----------------------------------------------------------------------
 
-Behaviour and culture
+TSS Cultural evolution
 
-	People respond on many time scales to a new infectious disease
+BC
 
-		Instinctive responses (clannishness)?
+COLPIC images/culture_dance.jpg
 
-		Cultural beliefs and practices
+NC
+
+	People form understandings and rituals around pathogens
+
+		Measles parties
+
+		Shunning
+
+		Hand-washing
+
+EC
 
 ----------------------------------------------------------------------
 
-Host evolution
+TSS Host evolution
+
+BC
 
 	Response balance
 
@@ -213,16 +268,207 @@ Host evolution
 
 		Acquired systems
 
+NC
+
+UP 4ex
+
+COLPIC images/sickle_cell.png
+
+COLPIC images/b_cell.jpg
+
+EC
+
 ----------------------------------------------------------------------
 
-Adaptation
+Tolerance
 
-	Specificity
+BC
 
-		Pathogen should 
+	Hosts can be infected productively without being clinically ill
+
+	But the pathogen is not going to control itself
+
+NC
+
+COLPIC images/lyme_rash.jpg
+
+EC
 
 ----------------------------------------------------------------------
 
-Aging
 
-	Arms race
+Host vs.\ pathogen
+
+BC
+
+	Pathogen evolution may be attuned to attacking one particular host
+
+	Host evolution needs to balance the need to fight many different kinds of
+	pathogens
+
+NC
+
+UP 3ex
+
+HIGHFIG images/mhc.png
+
+EC
+
+----------------------------------------------------------------------
+
+SEC Aging and Adaptation 
+
+----------------------------------------------------------------------
+
+TSS Aging
+
+FIG images/missile.jpg
+
+----------------------------------------------------------------------
+
+Example: genetic imprinting
+
+BC
+
+	What happens when paternal and maternal fitness are in conflict?
+
+NC
+
+COLPIC images/puppet_child.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Virulence genes and antagonists
+
+BC
+
+	Attack and defense genes that cancel out
+
+NC
+
+COLPIC images/rust.png
+
+EC
+
+----------------------------------------------------------------------
+
+Extreme responses
+
+Host 
+
+	Sickle cell
+
+	Cystic fibrosis
+
+	Tay-Sachs
+
+Pathogen
+
+	var/EMP
+
+	hemagglutinin loops 
+
+	TB DNA repair
+
+----------------------------------------------------------------------
+
+The ecological endpoint
+
+	Apparent competition: a ``natural enemy'' usually cannot eliminate a host
+	unless it has a robust alternative host.
+
+	The most common ecological endpoint of the arms race might be extinction of
+	the pathogen
+
+		Depends also on whether the host keeps fighting
+
+----------------------------------------------------------------------
+
+TSS Adaptation
+
+	Both parties have something in common:
+
+		all else equal, they value the fitness of the host
+
+	This could set the stage for adaptation through time
+
+----------------------------------------------------------------------
+
+Pathogen activity
+
+FIG damage.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+Pathogen activity
+
+BC
+
+COLFIG damage.Rout-0.pdf
+
+NC
+
+	Common cold vs.\ meningitis
+
+	Upper vs.\ lower respiratory tract infections
+
+	Pulmonary vs\ extra-pulmonary TB
+
+EC
+
+----------------------------------------------------------------------
+
+Pathogen activity
+
+FIG damage.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+Immune activity
+
+FIG damage.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+Immune activity
+
+BC
+
+FIG damage.Rout-0.pdf
+
+NC
+
+	More targeted responses
+
+	Th balance?
+
+EC
+
+----------------------------------------------------------------------
+
+Managed adaptation
+
+	What might encourage adaptation towards lower-damage strategies?
+
+		Target transmission routes that favor higher pathogen aggressiveness
+
+			E.g., sedentary infector, or high titer required
+
+			High force of infection arenas
+
+		Target people with more severe symptoms
+
+			Isolation, interdiction, treatment
+
+----------------------------------------------------------------------
+
+Thank you
+
+	Audience
+
+	Organizers
+
+	Ben Bolker
+

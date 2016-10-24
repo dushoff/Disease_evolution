@@ -25,6 +25,9 @@ baseplot <- function(agg, trans){
 	# axis(2, labels=FALSE)
 }
 
+peakPos <- which.max(dur*trans)
+peakHeight <- (dur*trans)[peakPos]
+
 baseplot(agg, trans)
 
 baseplot(agg, trans)
@@ -43,4 +46,16 @@ legend("topleft"
 	, lty=1
 )
 
+baseplot(agg, trans)
+lines(agg, dur, col="blue")
+lines(agg, dur*trans, col="red")
+legend("topleft"
+	, legend = c("Transmission", "Duration", "Reproduction")
+	, col = c("black", "blue", "red")
+	, lty=1
+)
+
+arrows(agg[peakPos], 0
+	, y1=peakHeight
+)
 
