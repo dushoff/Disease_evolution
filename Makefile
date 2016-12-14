@@ -37,6 +37,11 @@ damage.Rout: damage.R
 talkdir = $(ms)/talk
 format_files = beamer.tmp beamer.fmt
 
+##
+
+# Changed file needs to be sourced
+Sources += beamer.fmt
+
 ######################################################################
 
 ## Pix
